@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: url('assets/fonts/DMSans-VariableFont_opsz,wght.ttf') format('truetype');
+    font-weight: 100 900;  
+    font-stretch: 100% 200%; 
+    font-style: normal;
+}
+
+body {
+    background-color: #000000;
+}
