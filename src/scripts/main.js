@@ -6,3 +6,5 @@ async function loadItem(id, src) {
 }
 
 loadItem('sidebar', './src/components/sidebar.html');
+loadItem('footer', './src/components/footer.html');
+loadItem('main-container', './src/components/headernav.html')
