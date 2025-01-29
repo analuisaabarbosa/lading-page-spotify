@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: url('assets/fonts/DMSans-VariableFont_opsz,wght.ttf') format('truetype');
+    font-weight: 100 900;  
+    font-stretch: 100% 200%; 
+    font-style: normal;
+}
+
+:root {
+    /* FONT */
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    /* COLOR */
+    --bg-icon: #131313;
+    --nebulous-black: #242424;
+    --pure-white: #ffffff;
+    --pure-black: #000000;
+    --silver-mist: #a7a7a7;
+    --bg-arrow-color: rgba(0, 0, 07); 
+}
