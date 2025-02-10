@@ -23,7 +23,7 @@
     font-weight: 700;
 }
 
-/* SCROLL */
+/* scroll */
 .offer__scroll-container {
     max-height: 43vh;
     margin: 24px;
@@ -38,7 +38,7 @@
     background-color: transparent;
 }
 
-/* FIM SCROLL */
+/* fim scroll */
 
 .offer__list-item {
     display: grid;
@@ -48,7 +48,6 @@
     gap: 16px;
     margin-bottom: 16px;
 
-    /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA */
     display: grid;
     gap: 16px;
     grid-gap: 32px;
@@ -71,7 +70,8 @@
     font-weight: 700;
 }
 
-/* COLOR CARDS */
+/* cards */
+
 .card1 {
     background-color: rgb(0, 100, 80);
 }
@@ -132,7 +132,7 @@
     background: rgb(60, 30, 80);
 }
 
-/* FIM COLOR CARDS */
+/* fim dos cards */
 
 .offer__list-item img {
     position: absolute;
@@ -143,7 +143,7 @@
     transform: rotate(25deg) translate(18%, -2%);
 }
 
-/* CARD ARTISTA */
+/* card artista */
 
 .artist {
     --column-count: 5;
@@ -228,24 +228,23 @@
     position: relative;
 }
 
-.play .fa-play {
+.play .play-icon {
     position: absolute;
     right: 10px;
     top: 120px;
     padding: 18px;
     background-color: #1db954;
     border-radius: 100%;
-    font-size: 14px;
     opacity: 0;
     transition: all ease 0.4s;
 }
 
-.artist-card:hover .play .fa-play {
+.artist-card:hover .play .play-icon {
     opacity: 1;
     transform: translateY(-20px);
 }
 
-.play .fa-play:hover {
+.play .play-icon:hover {
     padding: 20px;
     cursor: pointer;
 }
