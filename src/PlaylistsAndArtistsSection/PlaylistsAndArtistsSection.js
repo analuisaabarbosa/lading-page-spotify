@@ -18,6 +18,7 @@ import Playlist12 from "../assets/imgs/12.jpeg";
 import Playlist13 from "../assets/imgs/13.jpeg";
 import Playlist14 from "../assets/imgs/14.jpeg";
 import Playlist15 from "../assets/imgs/15.jpeg";
+import PlayIcon from "../assets/icons/play-icon.svg";
 
 const PlaylistsAndArtistsSection = () => {
   return (
@@ -32,91 +33,91 @@ const PlaylistsAndArtistsSection = () => {
             <section className="offer__list-item">
               <a href="../App.js" className="cards">
                 <div className="cards card1">
-                  <img src={Playlist1} alt="" />
+                  <img src={Playlist1} alt="Imagem do card" />
                   <span>Boas festas</span>
                 </div>
               </a>
               <a href="../App.js" className="cards">
                 <div className="cards card2">
-                  <img src={Playlist2} alt="" />
+                  <img src={Playlist2} alt="Imagem do card" />
                   <span>Feitos para você</span>
                 </div>
               </a>
               <a href="../App.js" className="cards">
                 <div className="cards card3">
-                  <img src={Playlist3} alt="" />
+                  <img src={Playlist3} alt="Imagem do card" />
                   <span>Lançamentos</span>
                 </div>
               </a>
               <a href="../App.js" className="cards">
                 <div className="cards card4">
-                  <img src={Playlist4} alt="" />
+                  <img src={Playlist4} alt="Imagem do card" />
                   <span>Creators</span>
                 </div>
               </a>
               <a href="../App.js" className="cards">
                 <div className="cards card5">
-                  <img src={Playlist5} alt="" />
+                  <img src={Playlist5} alt="Imagem do card" />
                   <span>Para treinar</span>
                 </div>
               </a>
               <a href="../App.js" className="cards">
                 <div className="cards card6">
-                  <img src={Playlist6} alt="" />
+                  <img src={Playlist6} alt="Imagem do card" />
                   <span>Podcasts</span>
                 </div>
               </a>
               <a href="../App.js" className="cards">
                 <div className="cards card7">
-                  <img src={Playlist7} alt="" />
+                  <img src={Playlist7} alt="Imagem do card" />
                   <span>Sertanejo</span>
                 </div>
               </a>
               <a href="../App.js" className="cards">
                 <div className="cards card8">
-                  <img src={Playlist8} alt="" />
+                  <img src={Playlist8} alt="Imagem do card" />
                   <span>Samba e pagode</span>
                 </div>
               </a>
               <a href="../App.js" className="cards">
                 <div className="cards card9">
-                  <img src={Playlist9} alt="" />
+                  <img src={Playlist9} alt="Imagem do card" />
                   <span>Funk</span>
                 </div>
               </a>
               <a href="../App.js" className="cards">
                 <div className="cards card10">
-                  <img src={Playlist10} alt="" />
+                  <img src={Playlist10} alt="Imagem do card" />
                   <span>MPB</span>
                 </div>
               </a>
               <a href="../App.js" className="cards">
                 <div className="cards card11">
-                  <img src={Playlist11} alt="" />
+                  <img src={Playlist11} alt="Imagem do card" />
                   <span>Rock</span>
                 </div>
               </a>
               <a href="../App.js" className="cards">
                 <div className="cards card12">
-                  <img src={Playlist12} alt="" />
+                  <img src={Playlist12} alt="Imagem do card" />
                   <span>Hip Hop</span>
                 </div>
               </a>
               <a href="../App.js" className="cards">
                 <div className="cards card13">
-                  <img src={Playlist13} alt="" />
+                  <img src={Playlist13} alt="Imagem do card" />
                   <span>Indie</span>
                 </div>
               </a>
               <a href="../App.js" className="cards">
                 <div className="cards card14">
-                  <img src={Playlist14} alt="" />
+                  <img src={Playlist14} alt="Imagem do card" />
                   <span>Relax</span>
                 </div>
               </a>
               <a href="../App.js" className="cards">
                 <div className="cards card15">
-                  <img src={Playlist15} alt="" />
+                  <img src={Playlist15} alt="Imagem do card" />
                   <span>Música Latina</span>
                 </div>
               </a>
@@ -128,9 +129,9 @@ const PlaylistsAndArtistsSection = () => {
         <div className="grid-container">
           <div className="artist-card" id="">
             <div className="card-img">
-            <img id="artist-img" className="artist-img" alt="Foo Fighters"/>
+              <img id="artist-img" className="artist-img" alt="Foo Fighters" />
               <div className="play">
-                <span className="fa fa-solid fa-play"></span>
+                <img src={PlayIcon} alt="Logo de play" />
               </div>
             </div>
             <div className="card-text">

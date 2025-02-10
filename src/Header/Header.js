@@ -20,7 +20,7 @@ const Header = () => {
           <img
             src={searchInput}
             id="search-icon"
-            alt="Logo de lupa indicando a funcionalidade de pesquisa na navegação"
+            alt="Logo lupa"
           ></img>
           <input
             id="search-input"
