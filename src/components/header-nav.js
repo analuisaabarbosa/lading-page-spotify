@@ -10,7 +10,7 @@ class HeaderNav extends HTMLElement {
                         <img src="./src/assets/icons/small-right.png" alt="Seta a direita">
                     </button>
                 <div class="header__search">
-                    <img src="./src/assets/icons/search.svg" style="width: 16px; height: 16px; margin-left: 10px;" alt="Logo de lupa indicando a funcionalidade de pesquisa na navegação">
+                    <img src="./src/assets/icons/search.svg" style="width: 16px; height: 16px; margin-left: 10px;" alt="Lupa">
                     <input id="search-input" type="text" maxlength="200" placeholder="O que você quer ouvir?">
                 </div>
                 </div>

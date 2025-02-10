@@ -5,14 +5,14 @@ class SideBarNav extends HTMLElement {
                 <nav class="sidebar-navigation">
                         <div class="sidebar-navigation__logo">
                             <a href="#">
-                                <img src="./src/assets/icons/logo-spotify.png" alt="Logo do Spotify na sidebar">
+                                <img src="./src/assets/icons/logo-spotify.png" alt="Logo Spotify">
                             </a>
                         </div>
                     <ul>
                         <li>
                             <a href="#">
                                 <span>
-                                <img src="./src/assets/icons/house-icon.svg" style="width: 18px; height: 18px;" alt="Logo de casinha indicando a página inícial na sidebar">
+                                <img src="./src/assets/icons/house-icon.svg" style="width: 18px; height: 18px;" alt="Logo da home">
                                 </span>
                                 <span>Início</span>
                             </a>
@@ -20,7 +20,7 @@ class SideBarNav extends HTMLElement {
                         <li>
                             <a href="#">
                                 <span>
-                                    <img src="./src/assets/icons/search.svg" style="width: 18px; height: 18px;" alt="Logo de lupa indicando a funcionalidade de pesquisa na sidebar">
+                                    <img src="./src/assets/icons/search.svg" style="width: 18px; height: 18px;" alt="Logo lupa">
                                 </span>
                                 <span>Buscar</span>
                             </a>
@@ -31,12 +31,12 @@ class SideBarNav extends HTMLElement {
                     <div class="library__content">
                         <button class="library__button">
                             <span>
-                                <img src="./src/assets/icons/book-icon.svg" style="width: 18px; height: 18px;" alt="Logo de livro indicando a sua biblioteca de músicas na sidebar">
+                                <img src="./src/assets/icons/book-icon.svg" style="width: 18px; height: 18px;" alt="Logo livro">
                             </span>
                             <span>Sua biblioteca</span>
                         </button>
                         <span>
-                            <img src="./src/assets/icons/plus-icon.svg" class="fa-plus" style="width: 18px; height: 18px;" alt="Logo do sinal de mais">
+                            <img src="./src/assets/icons/plus-icon.svg" class="fa-plus" style="width: 18px; height: 18px;" alt="Logo sinal de mais">
                         </span>
                     </div>
                     <section class="section-playlist">
